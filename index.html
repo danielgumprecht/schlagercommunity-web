@@ -1,50 +1,201 @@
 <!DOCTYPE html>
-<html lang="de" style="--bs-primary: #1E355A;--bs-primary-rgb: 30,53,90;">
+<html lang="de" class="no-js">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Schlager Community</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schlager Community – Die Community für Schlagerfans, KünstlerInnen &amp; Veranstalter</title>
+    <meta name="description" content="Egal ob KünstlerIn, Fan, Veranstalter oder Musikliebhaber – hier seid Ihr genau richtig!">
+    <meta name="theme-color" content="#0f1e36">
     <link rel="canonical" href="https://schlagercommunity.com/">
     <meta property="og:url" content="https://schlagercommunity.com/">
     <meta property="og:type" content="website">
-    <meta name="description" content="Egal ob KünstlerIn, Fan, Veranstalter oder Musikliebhaber – hier seid Ihr genau richtig!">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
+    <meta property="og:title" content="Schlager Community">
+    <meta property="og:description" content="Egal ob KünstlerIn, Fan, Veranstalter oder Musikliebhaber – hier seid Ihr genau richtig!">
+    <meta property="og:image" content="https://schlagercommunity.com/assets/img/b1.jpg">
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/fonts/outfit-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md py-3">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img src="assets/img/Logo.png" style="height: 30px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-2">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
-                </ul>
-            </div>
+    <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1.8l3.1 6.6 7.2.9-5.3 5 1.4 7.1L12 17.9l-6.4 3.5L7 14.3l-5.3-5 7.2-.9z"/></symbol>
+        <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 22v-8.2h2.8l.4-3.2h-3.2V8.5c0-.9.3-1.6 1.6-1.6h1.7V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.2h2.8V22h3.4z"/></symbol>
+        <symbol id="i-instagram" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M7 2.5h10A4.5 4.5 0 0 1 21.5 7v10a4.5 4.5 0 0 1-4.5 4.5H7A4.5 4.5 0 0 1 2.5 17V7A4.5 4.5 0 0 1 7 2.5z"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.6" cy="6.4" r="1.2" fill="currentColor"/></symbol>
+        <symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2.5" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21.5M8.5 21.5h7"/></g></symbol>
+        <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 20.5s-8-4.7-8-10.6A4.4 4.4 0 0 1 12 7.3a4.4 4.4 0 0 1 8 2.6c0 5.9-8 10.6-8 10.6z"/></symbol>
+        <symbol id="i-calendar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></symbol>
+        <symbol id="i-music" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5.5l11-2V16"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></g></symbol>
+        <symbol id="i-ticket" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 8.5V6.5a1.5 1.5 0 0 1 1.5-1.5h15A1.5 1.5 0 0 1 21 6.5v2a3.5 3.5 0 0 0 0 7v2a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-2a3.5 3.5 0 0 0 0-7z"/><path stroke-dasharray="2 2.5" d="M14.5 5.5v13"/></g></symbol>
+        <symbol id="i-sparkle" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 3l1.9 5.6L19.5 10.5l-5.6 1.9L12 18l-1.9-5.6L4.5 10.5l5.6-1.9zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></symbol>
+        <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14a6.5 6.5 0 0 1 3.5 6"/></g></symbol>
+        <symbol id="i-megaphone" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M3 10v4a1 1 0 0 0 1 1h3l8 5V4L7 9H4a1 1 0 0 0-1 1z"/><path d="M18.5 9a4 4 0 0 1 0 6"/></g></symbol>
+    </svg>
+
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html" aria-label="Schlager Community – Startseite"><img src="assets/img/Logo.png" alt="Schlager Community" width="1708" height="559"></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="hauptmenue"><span></span><span class="visually-hidden">Menü öffnen</span></button>
+            <nav class="nav" id="hauptmenue" aria-label="Hauptnavigation">
+                <a href="index.html" aria-current="page">Home</a>
+                <a href="#ueber-uns">Über uns</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a class="nav-cta" href="https://www.instagram.com/schlager.community/" target="_blank" rel="noopener">Folgen</a>
+            </nav>
         </div>
-    </nav>
-    <div class="d-lg-flex justify-content-lg-center"><img src="assets/img/b1.jpg" style="width: 100%;max-width: 800px;"></div>
-    <section class="py-4 py-xl-5">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
-                    <div>
-                        <h2 class="fw-bold mb-3"><span style="color: rgb(0, 0, 0);">Willkommen auf der Homepage der SchlagerCommunity!</span></h2>
-                        <p class="mb-4"><span style="color: rgb(0, 0, 0);">Egal ob KünstlerIn, Fan, Veranstalter oder Musikliebhaber – hier seid Ihr genau richtig!</span></p><a class="btn btn-primary fs-5 me-2 py-2 px-4" role="button" href="https://www.facebook.com/MeineSchlagerCommunity">Facebook</a><a class="btn btn-outline-primary fs-5 py-2 px-4" role="button" href="https://www.instagram.com/schlager.community/">Instagram</a>
+    </header>
+
+    <main id="inhalt">
+        <section class="hero">
+            <div class="container hero-inner">
+                <div>
+                    <span class="eyebrow"><svg><use href="#i-star"/></svg>Die Community für Schlagerliebe</span>
+                    <h1>Willkommen in der <span class="highlight">Schlager&shy;Community!</span></h1>
+                    <p class="hero-lead">Egal ob KünstlerIn, Fan, Veranstalter oder Musikliebhaber – hier seid Ihr genau richtig!</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-gold btn-lg" href="https://www.facebook.com/MeineSchlagerCommunity" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-facebook"/></svg>Facebook</a>
+                        <a class="btn btn-glass btn-lg" href="https://www.instagram.com/schlager.community/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-instagram"/></svg>Instagram</a>
+                    </div>
+                </div>
+                <div class="hero-art" aria-hidden="true">
+                    <div class="disc"></div>
+                    <svg class="star star-1"><use href="#i-star"/></svg>
+                    <svg class="star star-2"><use href="#i-star"/></svg>
+                    <svg class="star star-3"><use href="#i-star"/></svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="kicker">Für wen wir da sind</span>
+                    <h2>Hier seid Ihr genau richtig</h2>
+                    <p>Wir bringen alle zusammen, die Schlager lieben – auf und vor der Bühne.</p>
+                </div>
+                <div class="audience">
+                    <article class="card reveal">
+                        <div class="icon"><svg aria-hidden="true"><use href="#i-mic"/></svg></div>
+                        <h3>KünstlerInnen</h3>
+                        <p>Ob etablierter Star oder NewcomerIn – wir machen eure Musik bekannter und fördern eure Karriere.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="icon"><svg aria-hidden="true"><use href="#i-heart"/></svg></div>
+                        <h3>Fans</h3>
+                        <p>Neuigkeiten, Gewinnspiele und Fotos rund um eure Lieblingsstars – immer als Erste informiert.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="icon"><svg aria-hidden="true"><use href="#i-calendar"/></svg></div>
+                        <h3>Veranstalter</h3>
+                        <p>Wir promoten eure Konzerte und Events und sorgen für Reichweite beim Ticketverkauf.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="icon"><svg aria-hidden="true"><use href="#i-music"/></svg></div>
+                        <h3>Musikliebhaber</h3>
+                        <p>Vernetzt euch mit Gleichgesinnten und tauscht euch über die neuesten Trends der Szene aus.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="ueber-uns">
+            <div class="container split">
+                <div class="split-sticky reveal">
+                    <span class="kicker">Über uns</span>
+                    <h2>Gemeinsam für die Schlagerwelt</h2>
+                    <p>Eine wachsende Community auf Instagram und Facebook – aus Musikbegeisterten, Veranstaltern und KünstlerInnen.</p>
+                    <div class="stats">
+                        <div class="stat"><strong>Social Media</strong><span>Vernetzt auf Facebook &amp; Instagram</span></div>
+                        <div class="stat"><strong>Stars &amp; Newcomer</strong><span>Wir fördern alle Talente</span></div>
+                    </div>
+                </div>
+                <div class="prose reveal">
+                    <p>Wir sind eine Community, die sich auf Instagram und Facebook vernetzt und sich aus Musikbegeisterten, Veranstaltern und KünstlerInnen zusammensetzt. Auf unseren Seiten informieren wir euch regelmäßig über interessante Events, Konzerte, Neuvorstellungen von KünstlerInnen und Ticketverkäufe.</p>
+                    <p>Dabei ist es uns wichtig, sowohl bereits erfolgreiche KünstlerInnen als auch NewcomerInnen und bevorstehende Veranstaltungen bestmöglich zu unterstützen und zu promoten. Wir nutzen die größte Reichweite von Social Media Kanälen, um unsere KünstlerInnen bekannter zu machen und ihre Karrieren zu fördern.</p>
+                    <p>Wir sind stolz darauf, dass unsere Community stetig wächst und wir euch weiterhin mit Informationen, Neuigkeiten und Unterhaltung versorgen können. Unsere Kanäle bieten die Möglichkeit, sich mit anderen MusikliebhaberInnen zu vernetzen und sich über die neuesten Trends in der Musikszene auszutauschen.</p>
+                    <p>Wir möchten euch herzlich dazu einladen, unsere Social-Media-Kanäle zu besuchen und Teil unserer Community zu werden. Wir freuen uns, wenn ihr uns folgt und mit uns interagiert.</p>
+                    <p>Viel Spaß auf unseren Seiten!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" style="padding-top:0">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="kicker">Was euch erwartet</span>
+                    <h2>Alles rund um Schlager</h2>
+                </div>
+                <div class="features">
+                    <div class="feature reveal">
+                        <div class="icon"><svg aria-hidden="true"><use href="#i-calendar"/></svg></div>
+                        <div><h3>Events &amp; Konzerte</h3><p>Regelmäßige Infos zu spannenden Veranstaltungen.</p></div>
+                    </div>
+                    <div class="feature reveal">
+                        <div class="icon"><svg aria-hidden="true"><use href="#i-sparkle"/></svg></div>
+                        <div><h3>Neuvorstellungen</h3><p>Lernt neue KünstlerInnen und frische Songs kennen.</p></div>
+                    </div>
+                    <div class="feature reveal">
+                        <div class="icon"><svg aria-hidden="true"><use href="#i-ticket"/></svg></div>
+                        <div><h3>Ticketverkäufe</h3><p>Erfahrt rechtzeitig, wann es Karten gibt.</p></div>
+                    </div>
+                    <div class="feature reveal">
+                        <div class="icon"><svg aria-hidden="true"><use href="#i-megaphone"/></svg></div>
+                        <div><h3>Promotion</h3><p>Reichweite für KünstlerInnen und Veranstaltungen.</p></div>
+                    </div>
+                    <div class="feature reveal">
+                        <div class="icon"><svg aria-hidden="true"><use href="#i-star"/></svg></div>
+                        <div><h3>Gewinnspiele</h3><p>Verlosungen, Berichte und Fotos von Events.</p></div>
+                    </div>
+                    <div class="feature reveal">
+                        <div class="icon"><svg aria-hidden="true"><use href="#i-users"/></svg></div>
+                        <div><h3>Austausch</h3><p>Vernetzt euch mit anderen MusikliebhaberInnen.</p></div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="cta reveal">
+                    <svg class="bg-star" aria-hidden="true"><use href="#i-star"/></svg>
+                    <h2>Werde Teil unserer Community</h2>
+                    <p>Folgt uns, interagiert mit uns und verpasst keine Neuigkeiten mehr aus der Schlagerwelt.</p>
+                    <div class="cta-actions">
+                        <a class="btn btn-gold btn-lg" href="https://www.facebook.com/MeineSchlagerCommunity" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-facebook"/></svg>Auf Facebook folgen</a>
+                        <a class="btn btn-glass btn-lg" href="https://www.instagram.com/schlager.community/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-instagram"/></svg>Auf Instagram folgen</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div>
+                    <a class="brand" href="index.html" aria-label="Schlager Community – Startseite"><img src="assets/img/Logo.png" alt="Schlager Community" width="1708" height="559"></a>
+                    <p class="footer-tagline">Die Community für KünstlerInnen, Fans, Veranstalter und Musikliebhaber.</p>
+                </div>
+                <div class="socials">
+                    <a href="https://www.facebook.com/MeineSchlagerCommunity" target="_blank" rel="noopener" aria-label="Facebook"><svg aria-hidden="true"><use href="#i-facebook"/></svg></a>
+                    <a href="https://www.instagram.com/schlager.community/" target="_blank" rel="noopener" aria-label="Instagram"><svg aria-hidden="true"><use href="#i-instagram"/></svg></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span id="year">2026</span> Schlager Community</span>
+                <nav aria-label="Footer">
+                    <a href="index.html">Home</a>
+                    <a href="kontakt.html">Kontakt</a>
+                    <a href="mailto:office@schlagercommunity.com">office@schlagercommunity.com</a>
+                </nav>
+            </div>
         </div>
-    </section>
-    <div class="container">
-        <p>Wir sind eine Community, die sich auf Instagram und Facebook vernetzt und sich aus Musikbegeisterten, Veranstaltern und KünstlerInnen zusammensetzt. Auf unseren Seiten informieren wir euch regelmäßig über interessante Events, Konzerte, Neuvorstellungen von KünstlerInnen und Ticketverkäufe.</p>
-        <p>Dabei ist es uns wichtig, sowohl bereits erfolgreiche KünstlerInnen als auch NewcomerInnen und bevorstehende Veranstaltungen bestmöglich zu unterstützen und zu promoten. Wir nutzen die größte Reichweite von Social Media Kanälen, um unsere KünstlerInnen bekannter zu machen und ihre Karrieren zu fördern.</p>
-        <p>Wir sind stolz darauf, dass unsere Community stetig wächst und wir euch weiterhin mit Informationen, Neuigkeiten und Unterhaltung versorgen können. Unsere Kanäle bieten die Möglichkeit, sich mit anderen MusikliebhaberInnen zu vernetzen und sich über die neuesten Trends in der Musikszene auszutauschen.</p>
-        <p>Wir möchten euch herzlich dazu einladen, unsere Social-Media-Kanäle zu besuchen und Teil unserer Community zu werden. Wir freuen uns, wenn ihr uns folgt und mit uns interagiert.</p>
-        <p>Viel Spaß auf unseren Seiten!</p>
-    </div>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
